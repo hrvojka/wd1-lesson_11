@@ -8,7 +8,7 @@ secret = random.randint(1,30)
 attempts = 0
 wrong_guesses = []
 
-with open ("score_list.txt", "r") as score_file:
+with open("score_list.txt", "r") as score_file:
     score_list = json.loads(score_file.read())
     score_list.sort(key=itemgetter("attempts"))
 
