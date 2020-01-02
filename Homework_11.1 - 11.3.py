@@ -32,3 +32,4 @@ while True:
         print("Your guess is not correct... try something smaller")
     elif guess < secret:
         print("Your guess is not correct... try something bigger")
+    wrong_guesses.append(guess)
